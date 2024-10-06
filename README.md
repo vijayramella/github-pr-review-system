@@ -32,4 +32,15 @@ Start the server:
 bash
 Copy code
 node server.js
-Open your browser and navigate to http://localhost:3000 to connect your GitHub account.
+Open your browser and navigate to http://localhost:3000 to connect your GitHub account. 
+sample output or overview :-
+
+![Screenshot 2024-10-06 190721](https://github.com/user-attachments/assets/5c74bbf6-043e-422c-9905-7375377f01a0) 
+![Screenshot 2024-10-06 190732](https://github.com/user-attachments/assets/ecd8ae11-37dc-400d-9eb0-abb536279781)
+![Screenshot 2024-10-06 190751](https://github.com/user-attachments/assets/cd03832f-30cd-4a4a-8201-4cd8ff6d00a6)
+![Screenshot 2024-10-06 191941](https://github.com/user-attachments/assets/9b39c886-2871-42a8-bba7-bd9de41729ff)
+![Screenshot 2024-10-06 190823](https://github.com/user-attachments/assets/172122ae-1988-4741-b685-4871e5262310)
+
+
+
+
