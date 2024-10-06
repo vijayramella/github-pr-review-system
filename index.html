@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub PR Review System</title>
+</head>
+<body>
+    <h1>GitHub PR Review System</h1>
+    <button id="connect-github">Connect GitHub</button>
+    
+    <script>
+        const clientId = 'YOUR_GITHUB_CLIENT_ID'; // Replace with your GitHub client ID
+        const redirectUri = 'YOUR_REDIRECT_URI'; // Replace with your redirect URI
+        
+        document.getElementById('connect-github').onclick = function() {
+            window.location.href = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=repo`;
+        };
+    </script>
+</body>
+</html>
