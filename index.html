@@ -10,8 +10,8 @@
     <button id="connect-github">Connect GitHub</button>
     
     <script>
-        const clientId = 'YOUR_GITHUB_CLIENT_ID'; // Replace with your GitHub client ID
-        const redirectUri = 'YOUR_REDIRECT_URI'; // Replace with your redirect URI
+        const clientId = 'Ov23liGHqsQkrAGn5EvB'; // Your GitHub client ID
+        const redirectUri = 'http://localhost:3000/auth/github/callback'; // Your redirect URI
         
         document.getElementById('connect-github').onclick = function() {
             window.location.href = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=repo`;
